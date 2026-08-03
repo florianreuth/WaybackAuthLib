@@ -1,6 +1,6 @@
 /*
  * This file is part of WaybackAuthLib - https://github.com/florianreuth/WaybackAuthLib
- * Copyright (C) 2023-2026 Florian Reuth <git@florianreuth.de> and contributors
+ * Copyright (C) 2023-2026 Florian Reuth <git@florianreuth.de>
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
