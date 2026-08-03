@@ -1,4 +1,5 @@
-import de.florianreuth.baseproject.*
+import de.florianreuth.baseproject.setupProject
+import de.florianreuth.baseproject.setupPublishing
 
 plugins {
     `java-library`
