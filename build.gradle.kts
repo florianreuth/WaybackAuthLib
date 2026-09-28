@@ -1,18 +1,11 @@
-import de.florianreuth.baseproject.setupProject
-import de.florianreuth.baseproject.setupPublishing
-
 plugins {
     `java-library`
-    id("de.florianreuth.baseproject")
-}
-
-setupProject()
-setupPublishing()
-
-repositories {
-    maven("https://libraries.minecraft.net")
+    id("base.java")
+    id("base.maven_publish")
+    id("publishing.reposilite")
+    id("publishing.maven_central")
 }
 
 dependencies {
-    compileOnly("com.mojang:authlib:5.0.47")
+    compileOnly(libs.authlib)
 }
